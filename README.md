@@ -93,16 +93,16 @@ Follow these steps to run **JobBuddy** locally with Gmail + Google Sheets + Gemi
 
 ---
 
-## Clone the Repository
+### Clone the Repository
 
 git clone https://github.com/<your-username>/Job-Buddy.git
 cd Job-Buddy
 Your main notebook/script is: jobbuddy.ipynb
 
-## Install Dependencies
+### Install Dependencies
 pip install -r requirements.txt
 
-## Add Your Gemini API Key (GOOGLE_API_KEY)
+### Add Your Gemini API Key (GOOGLE_API_KEY)
 JobBuddy uses Gemini via Google AI Studio.
 
 Generate your key:
@@ -112,7 +112,7 @@ Create API Key
 GOOGLE_API_KEY=your_api_key_here
 ⚠️ Do NOT commit .env to GitHub.
 
-## Add Google OAuth Credentials (Gmail + Sheets)
+### Add Google OAuth Credentials (Gmail + Sheets)
 JobBuddy requires:
 
 Gmail API → read-only access
@@ -136,7 +136,7 @@ Job-Buddy/
  ├── jobbuddy.ipynb
  └── ...
 
-## Authenticate Your Google Account (First Run Only)
+### Authenticate Your Google Account (First Run Only)
 When you run the notebook/script:
 A browser window opens
 Sign in with the Google account you want to use
@@ -144,7 +144,7 @@ Approve Gmail + Sheets permissions
 A new file is auto-generated:
 token.json
 
-## Set Up Your Google Sheet
+### Set Up Your Google Sheet
 Create a new Google Sheet
 
 Name the tab:
@@ -162,5 +162,5 @@ Copy code
 JOBBUDDY_SHEET_ID = "<YOUR_SHEET_ID>"
 JOBBUDDY_SHEET_NAME = "Applications"
 
-## Run JobBuddy
+### Run JobBuddy
 
