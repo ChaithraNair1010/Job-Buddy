@@ -110,7 +110,6 @@ Go to → https://aistudio.google.com
 Create API Key
 
 GOOGLE_API_KEY=your_api_key_here
-⚠️ Do NOT commit .env to GitHub.
 
 ### Add Google OAuth Credentials (Gmail + Sheets)
 JobBuddy requires:
