@@ -87,7 +87,7 @@ JobBuddyPipeline (SequentialAgent)
 ```
 
 
-# 🛠 Setup Instructions
+## 🛠 Setup Instructions
 
 Follow these steps to run **JobBuddy** locally with Gmail + Google Sheets + Gemini.
 
