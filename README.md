@@ -28,7 +28,7 @@ I wanted an agent that **reads my inbox for me**, **updates my job tracker**, an
 
 ---
 
-## ✅ Solution (High Level)
+## Solution (High Level)
 
 JobBuddy connects three things:
 
